@@ -1,0 +1,219 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 10512,
+            "type": "VEC3",
+            "max": [
+                0.2742999494075775,
+                0.26103538274765015,
+                0.14407110214233398
+            ],
+            "min": [
+                -0.27585458755493164,
+                -0.35195234417915344,
+                -0.12488541007041931
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 10512,
+            "type": "VEC3",
+            "max": [
+                0.9999854564666748,
+                0.9997369050979614,
+                0.9999558329582214
+            ],
+            "min": [
+                -0.9999788999557495,
+                -0.9999471306800842,
+                -0.9999760985374451
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 10512,
+            "type": "VEC2",
+            "max": [
+                0.9892034530639648,
+                0.9808643460273743
+            ],
+            "min": [
+                0.01486293226480484,
+                0.01813805103302002
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 10512,
+            "type": "VEC2",
+            "max": [
+                4.413627624511719,
+                4.346914768218994
+            ],
+            "min": [
+                -3.381096601486206,
+                -3.35489559173584
+            ]
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 58551,
+            "type": "SCALAR",
+            "max": [
+                10511
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 654684,
+            "uri": "shirt_baked_0.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 126144,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 126144,
+            "byteLength": 126144,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 252288,
+            "byteLength": 84096,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 336384,
+            "byteLength": 84096,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 420480,
+            "byteLength": 234204,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "textures/image_0.png"
+        },
+        {
+            "uri": "textures/image_1.png"
+        }
+    ],
+    "materials": [
+        {
+            "name": "lambert1",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.5,
+                    0.5,
+                    0.5,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.5527864098548889
+            },
+            "normalTexture": {
+                "index": 0,
+                "texCoord": 1
+            },
+            "occlusionTexture": {
+                "index": 1
+            },
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "meshes[0]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 4,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2,
+                        "TEXCOORD_1": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "shirt_baked",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "T_Shirt_male",
+            "mesh": 0,
+            "extras": {
+                "name": "T_Shirt_male"
+            }
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        },
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        },
+        {
+            "source": 1,
+            "sampler": 1
+        }
+    ],
+    "scene": 0
+}
