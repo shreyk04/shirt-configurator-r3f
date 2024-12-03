@@ -17,16 +17,13 @@ section{
     top: 0;
     left: 0;
     display: flex;
-    /* justify-content: center; */
     flex-direction: column;
     align-items:  center;
-    /* background-color: antiquewhite; */
     height: 100%;
     width: 100%;
 }
 
 .section-container{
-    /* background-color: aquamarine; */
     position: relative;
     top: 10%;
     left: -10%;
@@ -35,7 +32,6 @@ section{
 .section-container h1{
     font-size: 15vw;
     letter-spacing: -6px;
-    /* font-style: italic; */
     width: 30%;
     line-height: 27vh;
     font-family: "Crimson Text", serif;
@@ -44,8 +40,6 @@ section{
 
 }
  .support-content {
-    /* background-color: rgb(113, 121, 119); */
-
     position: relative;
     top: -50%;
     left: 400px;
@@ -71,7 +65,6 @@ section{
   }
 
 button{
-
     border: none;
     border-radius: 5px;
     color: white;

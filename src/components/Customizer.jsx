@@ -37,6 +37,8 @@ const Customizer = ({config}) => {
                 </div>
                 <button className="share" style={{ background: snap.selectedColor }}
                  onClick={()=>{
+
+                    //to download image
                     const link=document.createElement('a')
                     link.setAttribute('download','canvas.png')
                     link.setAttribute('href',

@@ -5,7 +5,7 @@ import { state } from "../store";
 import { Logo } from "@pmndrs/branding";
 import { AiOutlineShopping } from "react-icons/ai";
 import { motion } from "motion/react"
-import { animate, AnimatePresence, delay } from "framer-motion";
+import { animate, AnimatePresence } from "framer-motion";
 
 
 
