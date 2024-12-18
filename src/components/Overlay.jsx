@@ -14,6 +14,8 @@ export default function Overlay() {
 
     const transition={type:'spring',duration:0.8}
 
+
+
     const config={
         initial:{x:-100,opacity:0,transition:{...transition,delay:0.5}},
         animate:{x:0,opacity:1,transition:{...transition,delay:0}},

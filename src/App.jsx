@@ -25,7 +25,6 @@ function App({ position = [0, 0, 2.5], fov = 25 }) {
         <Environment files="https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/potsdamer_platz_1k.hdr" />
 
         <CameraRig>
-          {/* <Backdrop /> */}
           <Center>
             <Shirt />
           </Center>

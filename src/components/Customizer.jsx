@@ -27,6 +27,7 @@ const Customizer = ({config}) => {
                 <div className="decals">
                     <div className="decals-container">
                         {
+                            
                             snap.decals.map((decal) => (
                                 <div className="decal" onClick={()=>(state.selectedDecal=decal)}>
                                     <img src={`./images/` + decal + '.png'} alt="" style={{width:"50px"}}/>

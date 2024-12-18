@@ -35,7 +35,6 @@ export function Shirt(props) {
        rotation={[0,0,0]}
        scale={0.15}
        opacity={0.7}
-
       />
       </mesh>
     </group>
